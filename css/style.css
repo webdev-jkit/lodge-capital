@@ -1,5 +1,6 @@
 body {
-    background-color: #9732EA;
+    background-color: #39116E;
+   
 }
 
 header {
@@ -15,6 +16,7 @@ header {
 .header-title {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 32px;
+    font-weight: bold;
     color: white;
 }
 .header-title .title-lodge {
@@ -41,4 +43,58 @@ header {
     font-size: 15px;
     background-color: #9732EA;
     border-radius: 5px;
+    cursor: pointer;
+}
+.header-intro {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+    padding-left: 68px;
+    padding-right: 68px;
+    
+}
+.header-intro .intro-pegged {
+    color: #9732EA;
+}
+.intro {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: mixed;
+    color: white;
+    padding-top: 20px;
+    padding-left: 68px;
+    padding-right: 68px;
+}
+.actions {
+    padding-top: 20px;
+    padding-left: 68px;
+    padding-right: 68px;
+    display: flex;
+}
+.actions .docs-button {
+    display: block;
+    border: none;
+    padding: 0.5rem;
+    color: white;
+    font-size: 15px;
+    background-color: #9732EA;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.actions .tvl {
+    padding-left: 30px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+section{
+    background-color: #260158;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 68px;
+    padding-right: 68px;
 }
