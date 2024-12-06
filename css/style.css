@@ -1,0 +1,44 @@
+body {
+    background-color: #9732EA;
+}
+
+header {
+    background-color: #260158;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 68px;
+    padding-right: 68px;
+}
+
+.header-title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    color: white;
+}
+.header-title .title-lodge {
+    color:#9732EA;
+}
+.navbar {
+    display: flex;
+    color: white;
+    gap: 2rem;
+}
+.navbar li {
+    display: block;
+    cursor: pointer;
+}
+.navbar li:hover {
+    color:#9732EA;
+}
+
+.header-actions .wallet-button {
+    display: block;
+    border: none;
+    padding: 0.5rem;
+    color: white;
+    font-size: 15px;
+    background-color: #9732EA;
+    border-radius: 5px;
+}
